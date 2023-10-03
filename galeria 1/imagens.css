@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    width: 100%;
+    height: 100vh;
+ }
+    
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div3 { grid-area: 1 / 3 / 2 / 4; }
+.div4 { grid-area: 1 / 4 / 3 / 5; }
+.div5 { grid-area: 1 / 5 / 2 / 6; }
+.div6 { grid-area: 1 / 6 / 2 / 8; }
+.div7 { grid-area: 1 / 8 / 3 / 9; }
+.div8 { grid-area: 2 / 1 / 3 / 3; }
+.div9 { grid-area: 2 / 3 / 4 / 4; }
+.div10 { grid-area: 2 / 5 / 4 / 7; }
+.div11 { grid-area: 2 / 7 / 3 / 8; }
+.div12 { grid-area: 3 / 1 / 5 / 3; }
+.div13 { grid-area: 3 / 4 / 4 / 5; }
+.div14 { grid-area: 3 / 7 / 6 / 9; }
+.div15 { grid-area: 4 / 3 / 6 / 5; }
+.div16 { grid-area: 4 / 5 / 6 / 6; }
+.div17 { grid-area: 4 / 6 / 5 / 7; }
+.div18 { grid-area: 5 / 1 / 6 / 2; }
+.div19 { grid-area: 5 / 2 / 6 / 3; }
+.div20 { grid-area: 5 / 6 / 6 / 7; }
+.div1{
+    background-image: url(imagens/dog1.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.div2 {
+    background-image: url(imagens/dog2.avif);
+    background-size: cover;
+}
+.div3 {
+    background-image: url(imagens/dog3.avif);
+    background-size: cover;
+    position: center;
+}
+.div4 {
+    background-image: url(imagens/dog4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div5 {
+    background-image: url(imagens/dog5.avif);
+    background-size: cover;
+    background-position: center;
+}
+.div6 {
+    background-image: url(imagens/dog6.avif);
+    background-size: cover;
+    background-position: center;
+}
+.div7 {
+    background-image: url(imagens/dog7.avif);
+    background-size: cover;
+    background-position: center;
+}
+.div8 {
+    background-image: url(imagens/dog8.avif);
+    background-size: cover;
+    background-position: center;
+}
+.div9 {
+    background-image: url(imagens/dog9.avif);
+    background-size: cover;
+    background-position: center;
+}
+.div10 {
+    background-image: url(imagens/dog10.avif);
+    background-size: cover;
+    background-position: center;
+}
+.div11 {
+    background-image: url(imagens/dog11.avif);
+    background-size: cover;
+    background-position: center;
+}
+.div12 {
+    background-image: url(imagens/dog12.avif);
+    background-size: cover;
+    background-position: center;
+}
+.div13 {
+    background-image: url(imagens/dog13.avif);
+    background-size: cover;
+    background-position: center;
+}
+.div14 {
+    background-image: url(imagens/dog14.avif);
+    background-size: cover;
+    background-position: center;
+}
+.div15 {
+    background-image: url(imagens/dog15.avif);
+    background-size: cover;
+    background-position: center;
+}
+.div16 {
+    background-image: url(imagens/dog16.avif);
+    background-size: cover;
+    background-position: center;
+}
+.div17 {
+    background-image: url(imagens/dog17.avif);
+    background-size: cover;
+    background-position: center;
+}
+.div18 {
+    background-image: url(imagens/dog18.avif);
+    background-size: cover;
+    background-position: center;
+}
+.div19 {
+    background-image: url(imagens/dog19.avif);
+    background-size: cover;
+    background-position: center;
+}
+.div20{
+    background-image: url(imagens/dog20.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.parent > div:hover{
+        transform: scale(1.2);
+        transition: 0.6s;
+        filter:saturate(0%);
+        z-index: 1;
+    }
